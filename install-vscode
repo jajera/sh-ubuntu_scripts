@@ -20,3 +20,4 @@ code --install-extension redhat.vscode-yaml
 code --install-extension amazonwebservices.aws-toolkit-vscode
 code --install-extension hashicorp.terraform
 code --install-extension ms-azuretools.vscode-azureterraform
+code --install-extension VisualStudioExptTeam.vscodeintellicode

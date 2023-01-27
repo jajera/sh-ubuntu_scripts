@@ -7,7 +7,7 @@ rm -f packages.microsoft.gpg
 # install vscode
 sudo apt-get update
 sudo apt-get install -y code
-code --version
+
 
 # install vscode extension
 code --install-extension azapi-vscode.azapi
@@ -22,3 +22,7 @@ code --install-extension amazonwebservices.aws-toolkit-vscode
 code --install-extension hashicorp.terraform
 code --install-extension ms-azuretools.vscode-azureterraform
 code --install-extension VisualStudioExptTeam.vscodeintellicode
+
+# verify
+code --version
+which code

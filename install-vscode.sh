@@ -7,6 +7,7 @@ rm -f packages.microsoft.gpg
 # install vscode
 sudo apt-get update
 sudo apt-get install -y code
+code --version
 
 # install vscode extension
 code --install-extension azapi-vscode.azapi

@@ -11,4 +11,7 @@ rm -f packages.microsoft.gpg
 # install azurecli
 sudo apt-get update
 sudo apt-get install -y azure-cli
+
+# verify
 az --version
+which az
